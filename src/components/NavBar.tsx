@@ -1,7 +1,5 @@
-import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import '../components/NavBar.css';
-import Button from '@mui/material/Button';
 
 function NavBar() {
   return (
