@@ -1,0 +1,47 @@
+.nav-item:hover {
+  color: #fff;
+}
+
+.logout-btn {
+  color: #f66;
+}
+
+.main-content {
+  flex: 1;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px;
+  overflow-y: auto;
+}
+
+.widgets {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 30px;
+}
+
+.card table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.card th, .card td {
+  padding: 12px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+.card th {
+  background: #f8f9fa;
+  font-weight: bold;
+}
+
+.no-data {
+  text-align: center;
+  font-style: italic;
+  color: #666;
+}
+
+
+

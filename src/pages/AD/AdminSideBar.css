@@ -1,0 +1,47 @@
+.adminsidebar {
+  width: 220px;
+  background-color: rgba(0, 0, 0, 0.85);
+  color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.adminbrand {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+  margin-bottom: 30px;
+}
+
+.adminnav-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.adminnav-item {
+  display: block;
+  color: #ddd;
+  text-decoration: none;
+  padding: 10px 0;
+  transition: color 0.3s;
+  background: none;
+  border: none;
+  text-align: left;
+  width: 100%;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1024px) {
+  .dashboard-layout {
+    flex-direction: column;
+  }
+  .adminsidebar {
+    width: 100%;
+    position: relative;
+  }
+}
+
+
